@@ -5,7 +5,8 @@
 *.pkl
 *.bin
 __pycache__
-tmp/ppo/
+tmp/ppo/actor_torch_ppo
+tmp/ppo/critic_torch_ppo
 
 # 2. Benötigte Code-Dateien
 !main.py
