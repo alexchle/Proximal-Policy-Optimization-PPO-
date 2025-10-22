@@ -1,33 +1,18 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
 
-# Betriebssystemspezifische Dateien
-.DS_Store
-Thumbs.db
-
-# PyTorch/Machine Learning spezifische Dateien
-# Ignoriere Checkpoints, Modelle, und große Datensätze
-models/
-checkpoints/
-data/
-datasets/
-logs/
-runs/
-*.pt
 *.pth
-*.tar
+*.pth
+*.pt
+*.pkl
+*.bin
+__pycache__
+tmp/ppo/
 
-# Jupyter Notebooks Checkpoints
-.ipynb_checkpoints
+# 2. Benötigte Code-Dateien
+!main.py
+!ppo_torch.py
+!utils.py
+!.gitignore
+!README.md
 
-# Build-Artefakte
-dist/
-build/
-*.egg-info/
+# 3. Plots Ordner
+
