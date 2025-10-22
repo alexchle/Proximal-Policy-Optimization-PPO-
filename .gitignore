@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Betriebssystemspezifische Dateien
+.DS_Store
+Thumbs.db
+
+# PyTorch/Machine Learning spezifische Dateien
+# Ignoriere Checkpoints, Modelle, und große Datensätze
+models/
+checkpoints/
+data/
+datasets/
+logs/
+runs/
+*.pt
+*.pth
+*.tar
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints
+
+# Build-Artefakte
+dist/
+build/
+*.egg-info/
